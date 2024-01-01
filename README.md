@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on the course project<br>👯 I’m looking to collaborate on the project with friends <br>🤝 I’m looking for help with other projects <br>🌱 I’m currently learning a new language <br>💬 Ask me about anything <br>⚡ Fun fact - I am very lazy 
+🔭 I’m currently working on the course project<br>👯 I’m looking to collaborate on the project with friends <br>🤝 I’m looking for help with other projects <br>🌱 I’m currently learning a new language (JS) <br>💬 Ask me about anything <br>⚡ Fun fact - I am very lazy 
 
 
 ## 🌐 Socials:
