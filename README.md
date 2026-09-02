@@ -1,9 +1,9 @@
 <!--
 ============================================================================
   👋 HEY JOY! BEFORE YOU COMMIT — REPLACE THESE PLACEHOLDERS:
-  • LinkedIn URL ........ search:  YOUR_LINKEDIN
+  • LinkedIn URL ........ search:  https://www.linkedin.com/in/joy-tarafder/
   • Portfolio URL ....... search:  YOUR_PORTFOLIO
-  • Email address ....... search:  YOUR_EMAIL
+  • Email address ....... search:  joytarafder3@gmail.com
   • Twitter/X handle .... search:  YOUR_TWITTER
   • Facebook URL ........ search:  YOUR_FACEBOOK
   • Adjust the Tech Stack row to match what you actually use.
