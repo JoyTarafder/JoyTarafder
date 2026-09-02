@@ -14,11 +14,11 @@
 <!-- ======================= HEADER BANNER ======================= -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,12,24&height=220&section=header&text=Joy%20Tarafder&fontSize=62&fontColor=ffffff&animation=twinkling&fontAlignY=34&desc=Frontend%20Developer%20%7C%20UI%20Craftsman&descAlignY=54&descSize=18" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,12,24&height=220&section=header&text=Joy%20Tarafder&fontSize=62&fontColor=ffffff&animation=twinkling&fontAlignY=34&desc=Software%20Engineer%20%7C%20AI%20%7C%20Frontend%20Developer&descAlignY=54&descSize=17" alt="header" />
 
 <!-- ======================= TYPING ANIMATION ======================= -->
 <a href="https://github.com/JoyTarafder">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=70A5FD&center=true&vCenter=true&width=650&height=60&lines=Frontend+Developer+%F0%9F%92%BB;React+%26+Next.js+Enthusiast+%E2%9A%9B%EF%B8%8F;Turning+ideas+into+beautiful+UIs+%E2%9C%A8;Always+learning%2C+always+building+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=70A5FD&center=true&vCenter=true&width=650&height=60&lines=Software+Engineer+%F0%9F%92%BB;AI+%26+Frontend+Enthusiast+%F0%9F%A4%96;React+%26+Next.js+Craftsman+%E2%9A%9B%EF%B8%8F;Building+intelligent%2C+beautiful+products+%E2%9C%A8" alt="Typing SVG" />
 </a>
 
 <!-- ======================= PROFILE BADGES ======================= -->
@@ -41,21 +41,22 @@
 
 ```typescript
 const joy = {
-  role: "Frontend Developer",
+  role: "Software Engineer | AI",
   location: "Bangladesh 🇧🇩",
-  code: ["JavaScript", "TypeScript", "HTML", "CSS"],
-  frameworks: ["React", "Next.js", "Tailwind CSS"],
-  currentlyLearning: "Advanced React patterns & Web performance",
-  askMeAbout: ["UI/UX", "Responsive design", "Frontend architecture"],
-  funFact: "I turn coffee ☕ into pixel-perfect interfaces",
+  code: ["JavaScript", "TypeScript", "Python", "HTML", "CSS"],
+  frameworks: ["React", "Next.js", "Tailwind CSS", "Node.js"],
+  aiStack: ["OpenAI API", "LangChain", "TensorFlow", "PyTorch"],
+  currentlyLearning: "AI-powered app development & applied ML",
+  askMeAbout: ["AI integrations", "UI/UX", "Frontend architecture"],
+  funFact: "I turn coffee ☕ into intelligent, pixel-perfect interfaces",
 };
 ```
 
-- 🔭 &nbsp;I'm currently building **modern, responsive web interfaces**
-- 🌱 &nbsp;Deep-diving into **React, Next.js & the modern frontend ecosystem**
+- 🔭 &nbsp;I'm currently building **AI-powered, modern web applications**
+- 🌱 &nbsp;Deep-diving into **AI/ML, LLM integrations & the modern frontend ecosystem**
 - 🎨 &nbsp;I care about **clean UI, great UX, and accessible design**
-- 👯 &nbsp;Open to **collaborating on cool frontend projects**
-- 💬 &nbsp;Ask me about **anything frontend** — I love talking shop
+- 👯 &nbsp;Open to **collaborating on AI & frontend projects**
+- 💬 &nbsp;Ask me about **AI integrations, frontend, or anything in between** — I love talking shop
 - ⚡ &nbsp;Fun fact: **I obsess over pixel-perfect details**
 
 <br clear="both" />
@@ -70,12 +71,14 @@ const joy = {
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ### Frameworks & Libraries
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
+
 
 ### Styling
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
@@ -96,7 +99,7 @@ const joy = {
 <br />
 
 <!-- Quick visual stack row -->
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,bootstrap,sass,redux,nodejs,express,mongodb,firebase,git,github,figma,vscode,vite,npm&perline=10" alt="tech stack icons" />
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,py,react,nextjs,tailwind,bootstrap,sass,redux,nodejs,express,mongodb,firebase,git,github,figma,vscode,vite&perline=10" alt="tech stack icons" />
 
 </div>
 
@@ -186,6 +189,6 @@ const joy = {
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,12,24&height=120&section=footer" alt="footer" />
 
-**Thanks for stopping by! Let's build something beautiful together.** ⭐
+**Thanks for stopping by! Let's build something intelligent and beautiful together.** ⭐
 
 </div>
