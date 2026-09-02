@@ -103,37 +103,6 @@ const joy = {
 
 </div>
 
-<!-- ======================= GITHUB STATS ======================= -->
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=JoyTarafder&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&title_color=70A5FD&icon_color=bf91f3&bg_color=1a1b27" alt="Joy's GitHub stats" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoyTarafder&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&title_color=70A5FD&bg_color=1a1b27" alt="Top Languages" />
-
-<br /><br />
-
-<img src="https://streak-stats.demolab.com/?user=JoyTarafder&theme=tokyonight&hide_border=true&background=1a1b27&ring=70A5FD&fire=bf91f3&currStreakLabel=70A5FD" alt="GitHub Streak" />
-
-</div>
-
-<!-- ======================= TROPHIES ======================= -->
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=JoyTarafder&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="GitHub Trophies" />
-
-</div>
-
-<!-- ======================= ACTIVITY GRAPH ======================= -->
-## 📈 Contribution Graph
-
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=JoyTarafder&bg_color=1a1b27&color=70A5FD&line=bf91f3&point=ffffff&area=true&hide_border=true" alt="Activity Graph" />
-
-</div>
 
 <!-- ======================= SNAKE ANIMATION ======================= -->
 ## 🐍 Watch My Contributions Get Eaten
