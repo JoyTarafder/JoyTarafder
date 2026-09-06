@@ -106,6 +106,15 @@ const joy = {
 
 </div>
 
+<!-- ======================= ACTIVITY GRAPH ======================= -->
+## 📈 My GitHub Activity
+
+<div align="center">
+
+[![Joy's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=JoyTarafder&theme=react-dark&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
 <!-- ======================= ACHIEVEMENTS ======================= -->
 ## 🏆 Achievements
 
@@ -117,7 +126,22 @@ const joy = {
   <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="100" title="YOLO" alt="YOLO" />
 </a>
 
-<sub>🔗 See the full, always up-to-date list on my <a href="https://github.com/JoyTarafder?tab=achievements">GitHub Achievements page</a></sub>
+
+</div>
+
+<!-- ======================= SPOTIFY ======================= -->
+## 🎧 What I'm Listening To
+
+<div align="center">
+
+<!-- 👉 One-time setup needed: click the Authorize button below with your Spotify account, then replace SPOTIFY_USERNAME with your actual Spotify username -->
+<a href="https://spotify-recently-played-readme.vercel.app/">
+  <img src="https://img.shields.io/badge/Authorize_Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Authorize Spotify" />
+</a>
+
+<br /><br />
+
+![Spotify recently played](https://spotify-recently-played-readme.vercel.app/api?user=314euxsgxvyah2koltgwdv5wsdee&count=3&unique=true)
 
 </div>
 
