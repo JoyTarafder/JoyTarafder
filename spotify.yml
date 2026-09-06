@@ -1,0 +1,44 @@
+name: Update Spotify Now Playing
+
+on:
+  schedule:
+    # Runs every 10 minutes. GitHub may delay this a bit further under load —
+    # that delay is a GitHub Actions platform limit, not something in this workflow.
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update-spotify-card:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate Spotify card
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+        run: node scripts/generate-spotify-card.js
+
+      - name: Commit and push if the card changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add spotify/now-playing.svg
+          if git diff --staged --quiet; then
+            echo "No change in now-playing.svg — skipping commit."
+          else
+            git commit -m "chore: update spotify now-playing card"
+            git push
+          fi
