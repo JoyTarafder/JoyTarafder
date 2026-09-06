@@ -1,9 +1,9 @@
-<svg width="440" height="120" viewBox="0 0 440 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Spotify Last played: Spotify token needs refresh by Update SPOTIFY_REFRESH_TOKEN in GitHub secrets">
+<svg width="440" height="120" viewBox="0 0 440 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Spotify Last played: Nothing found by Play something on Spotify!">
   <rect width="440" height="120" rx="14" fill="#191414"/>
   <circle cx="36" cy="60" r="20" fill="#1DB954"/>
   <path d="M27 52c9-3 17-3 26 1M28 60c8-2.5 15-2.5 22 0.5M29 68c6-1.5 12-1.5 18 0.5"
         stroke="#191414" stroke-width="2.4" stroke-linecap="round" fill="none"/>
   <text x="68" y="42" fill="#8a8a8a" font-family="Verdana, sans-serif" font-size="13" font-weight="bold">Last played</text>
-  <text x="68" y="68" fill="#ffffff" font-family="Verdana, sans-serif" font-size="17" font-weight="bold">Spotify token needs refresh</text>
-  <text x="68" y="90" fill="#b3b3b3" font-family="Verdana, sans-serif" font-size="13">Update SPOTIFY_REFRESH_TOKEN in GitHub secrets</text>
+  <text x="68" y="68" fill="#ffffff" font-family="Verdana, sans-serif" font-size="17" font-weight="bold">Nothing found</text>
+  <text x="68" y="90" fill="#b3b3b3" font-family="Verdana, sans-serif" font-size="13">Play something on Spotify!</text>
 </svg>
