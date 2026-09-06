@@ -112,9 +112,9 @@ const joy = {
 <div align="center">
 
 <a href="https://github.com/JoyTarafder?tab=achievements">
-  <img src="https://img.shields.io/badge/Pair_Extraordinaire-70A5FD?style=for-the-badge&logo=github&logoColor=white" alt="Pair Extraordinaire" />
-  <img src="https://img.shields.io/badge/Pull_Shark-x2-bf91f3?style=for-the-badge&logo=github&logoColor=white" alt="Pull Shark x2" />
-  <img src="https://img.shields.io/badge/YOLO-fd4499?style=for-the-badge&logo=github&logoColor=white" alt="YOLO" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="100" title="Pair Extraordinaire" alt="Pair Extraordinaire" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="100" title="Pull Shark x2" alt="Pull Shark x2" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="100" title="YOLO" alt="YOLO" />
 </a>
 
 <sub>🔗 See the full, always up-to-date list on my <a href="https://github.com/JoyTarafder?tab=achievements">GitHub Achievements page</a></sub>
