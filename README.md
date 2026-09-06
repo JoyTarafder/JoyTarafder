@@ -141,7 +141,7 @@ const joy = {
 
 <br /><br />
 
-![Spotify recently played](https://spotify-recently-played-readme.vercel.app/api?user=314euxsgxvyah2koltgwdv5wsdee&count=3&unique=true)
+[![Spotify recently played](https://spotify-recently-played-readme.vercel.app/api?user=314euxsgxvyah2koltgwdv5wsdee&count=3&unique=true)](https://spotify-recently-played.jeffreyca.workers.dev/svg?user=314euxsgxvyah2koltgwdv5wsdee&count=2&width=460&radius=25)
 
 </div>
 
