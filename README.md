@@ -111,7 +111,9 @@ const joy = {
 
 <div align="center">
 
-[![Joy's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=JoyTarafder&theme=react-dark&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+  <img alt="Joy's github activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=JoyTarafder&theme=react-dark&hide_border=true&area=true" />
+</a>
 
 </div>
 
