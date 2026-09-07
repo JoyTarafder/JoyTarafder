@@ -130,6 +130,7 @@ const joy = {
 
 <sub>🔗 See the full, always up-to-date list on my <a href="https://github.com/JoyTarafder?tab=achievements">GitHub Achievements page</a></sub>
 
+
 </div>
 
 <!-- ======================= SPOTIFY ======================= -->
@@ -137,11 +138,16 @@ const joy = {
 
 <div align="center">
 
-<!-- Auto-updates every ~10 min via .github/workflows/spotify.yml — see SPOTIFY_SETUP.md for one-time setup -->
-<img src="https://raw.githubusercontent.com/JoyTarafder/JoyTarafder/main/spotify/now-playing.svg" alt="Spotify now playing" />
+<!-- 👉 One-time setup needed: click the Authorize button below with your Spotify account, then replace SPOTIFY_USERNAME with your actual Spotify username -->
+<a href="https://spotify-recently-played-readme.vercel.app/">
+  <img src="https://img.shields.io/badge/Authorize_Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Authorize Spotify" />
+</a>
+
+<br /><br />
+
+![Spotify recently played](https://spotify-recently-played-readme.vercel.app/api?user=314euxsgxvyah2koltgwdv5wsdee&count=3&unique=true)
 
 </div>
-
 <!-- ======================= CONNECT ======================= -->
 ## 🤝 Connect With Me
 
