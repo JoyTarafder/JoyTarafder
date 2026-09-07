@@ -52,8 +52,16 @@ async function getNowPlaying(token) {
     { headers: { Authorization: `Bearer ${token}` } }
   );
 
-  // 204 = nothing currently playing
-  if (res.status === 204 || !res.ok) return null;
+  console.log(`[currently-playing] status: ${res.status}`);
+
+  // 204 = nothing currently playing (this is normal, not an error)
+  if (res.status === 204) return null;
+
+  if (!res.ok) {
+    const body = await res.text();
+    console.log(`[currently-playing] error body: ${body}`);
+    return null;
+  }
 
   const data = await res.json();
   if (!data || !data.item) return null;
@@ -67,9 +75,16 @@ async function getRecentlyPlayed(token) {
     { headers: { Authorization: `Bearer ${token}` } }
   );
 
-  if (!res.ok) return null;
+  console.log(`[recently-played] status: ${res.status}`);
+
+  if (!res.ok) {
+    const body = await res.text();
+    console.log(`[recently-played] error body: ${body}`);
+    return null;
+  }
 
   const data = await res.json();
+  console.log(`[recently-played] items count: ${data.items?.length ?? 0}`);
   const track = data.items && data.items[0] && data.items[0].track;
   if (!track) return null;
 
@@ -108,12 +123,6 @@ function buildSvg({ title, artist, isPlaying }) {
 </svg>`;
 }
 
-function writeCardSvg(svg) {
-  const outDir = path.join(process.cwd(), "spotify");
-  fs.mkdirSync(outDir, { recursive: true });
-  fs.writeFileSync(path.join(outDir, "now-playing.svg"), svg, "utf8");
-}
-
 (async () => {
   try {
     const token = await getAccessToken();
@@ -130,21 +139,13 @@ function writeCardSvg(svg) {
     const isPlaying = Boolean(result?.isPlaying);
 
     const svg = buildSvg({ title, artist, isPlaying });
-    writeCardSvg(svg);
+
+    const outDir = path.join(process.cwd(), "spotify");
+    fs.mkdirSync(outDir, { recursive: true });
+    fs.writeFileSync(path.join(outDir, "now-playing.svg"), svg, "utf8");
 
     console.log(`Wrote spotify/now-playing.svg — "${title}" by ${artist}`);
   } catch (err) {
-    if (err instanceof Error && err.message.includes("Failed to refresh access token: 400")) {
-      const svg = buildSvg({
-        title: "Spotify token needs refresh",
-        artist: "Update SPOTIFY_REFRESH_TOKEN in GitHub secrets",
-        isPlaying: false,
-      });
-      writeCardSvg(svg);
-      console.warn("Spotify token refresh failed (400). Wrote fallback card instead.");
-      return;
-    }
-
     console.error("Failed to generate Spotify card:", err);
     process.exit(1);
   }
