@@ -52,8 +52,16 @@ async function getNowPlaying(token) {
     { headers: { Authorization: `Bearer ${token}` } }
   );
 
-  // 204 = nothing currently playing
-  if (res.status === 204 || !res.ok) return null;
+  console.log(`[currently-playing] status: ${res.status}`);
+
+  // 204 = nothing currently playing (this is normal, not an error)
+  if (res.status === 204) return null;
+
+  if (!res.ok) {
+    const body = await res.text();
+    console.log(`[currently-playing] error body: ${body}`);
+    return null;
+  }
 
   const data = await res.json();
   if (!data || !data.item) return null;
@@ -67,9 +75,16 @@ async function getRecentlyPlayed(token) {
     { headers: { Authorization: `Bearer ${token}` } }
   );
 
-  if (!res.ok) return null;
+  console.log(`[recently-played] status: ${res.status}`);
+
+  if (!res.ok) {
+    const body = await res.text();
+    console.log(`[recently-played] error body: ${body}`);
+    return null;
+  }
 
   const data = await res.json();
+  console.log(`[recently-played] items count: ${data.items?.length ?? 0}`);
   const track = data.items && data.items[0] && data.items[0].track;
   if (!track) return null;
 
